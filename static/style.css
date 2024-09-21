@@ -11,18 +11,23 @@ body{
   background: #1D212B;
 }
 
-h1{
+h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(1rem, 5vw, 5rem);
   color: white;
-  font-size: 3rem;
-  font-family: "Space Mono", monospace;
- 
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+}
+
+h1:hover {
+  background-color: transparent;
+  color: white;
 }
 
 label{
   color: white;
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
-
 }
 
 body {
